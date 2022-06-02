@@ -120,4 +120,8 @@
     <java-symbol type="string" name="config_batterymeterLandBoltPath" />
     <java-symbol type="string" name="config_batterymeterLandPowersavePath" />
     <java-symbol type="string" name="config_batterymeterLandErrorPerimeterPath" />
+
+    <!-- Lock gesture -->
+    <java-symbol type="string" name="gesture_locked_warning" />
+
 </resources>
