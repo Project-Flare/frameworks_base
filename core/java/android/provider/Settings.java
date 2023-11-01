@@ -12827,7 +12827,7 @@ public final class Settings {
          * @hide
          */
         public static final String ENABLE_PROJECTION_PRIVACY_INDICATOR = "enable_projection_privacy_indicator";
-        
+
         /**
          * Pulse navbar music visualizer
          * @hide
@@ -12935,6 +12935,12 @@ public final class Settings {
          * @hide
          */
         public static final String BERRY_BLACK_THEME = "berry_black_theme";
+
+	/**
+         * Whether to show or hide the arrow for back gesture
+         * @hide
+         */
+        public static final String BACK_GESTURE_ARROW = "back_gesture_arrow";
 
         /**
          * Keys we no longer back up under the current schema, but want to continue to
