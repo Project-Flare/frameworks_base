@@ -182,16 +182,10 @@ constructor(
                 privateFlags =
                     WindowManager.LayoutParams.PRIVATE_FLAG_TRUSTED_OVERLAY or
                         WindowManager.LayoutParams.PRIVATE_FLAG_EXCLUDE_FROM_SCREEN_MAGNIFICATION
-                dimAmount = 0.0f
                 // Avoid announcing window title.
                 accessibilityTitle = " "
                 inputFeatures = WindowManager.LayoutParams.INPUT_FEATURE_SPY
             }
-
-    fun updateDimAmount(newDimAmount: Float) {
-        coreLayoutParams.dimAmount = newDimAmount
-        windowManager.updateViewLayout(getTouchOverlay(), coreLayoutParams)
-    }
 
     /** If the overlay is currently showing. */
     val isShowing: Boolean
